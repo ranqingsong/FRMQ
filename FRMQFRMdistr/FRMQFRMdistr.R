@@ -1,4 +1,5 @@
-## Creating density distribution of standard FRM index through kernel density estimation## clean environment
+## Creating density distribution of standard FRM and FRM calculated with quantiles through kernel density estimation
+## clean environment
 rm(list = ls(all = TRUE))
 graphics.off()
 
