@@ -290,7 +290,7 @@ create_plot_sum = function(month_output_stepwise_list, channel, title) {
     
 }
 month_output_stepwise_list = list(AM_lag2_output, AM_lag3_output, AM_lag4_output)
-month_output_stepwise_list_2 = list(EU_lag2_output, EU_lag3_ouput)
+month_output_stepwise_list_2 = list(EU_lag2_output, EU_lag3_output)
 
 create_plot_sum(month_output_stepwise_list, channel, "lag2_to_lag4")
 create_plot_sum(month_output_stepwise_list_2, channel2, "lag2_to_lag3")
