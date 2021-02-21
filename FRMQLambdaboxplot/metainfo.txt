@@ -1,0 +1,21 @@
+Name of Quantlet: 'FRMQLambdaboxplot'
+ 
+Published in: 'Distribution of probabilities of Financial Risk Meter (FRM)'
+  
+Description: 'Creats boxplot of time-series of all FRM@Americas and FRM@Europe candidates during financial crisis of 2007 and COVID-19 pandemic, including standard FRM calculated with average penalization parameters and novel FRM proposed with quantiles at 50%, 60%, 70%, 80%, 90% and interquartile range (IQR).'
+ 
+Keywords: 'FRM, penalisation parameter, boxplot'
+
+Author:  'Ranqing Song'
+  
+Submitted:  'Sun, February 21 2021 by Ranqing Song'
+
+Datafile: 
+- FRM_20070402_20091231Americas.rds : 'Time-series of all penalization parameters in linear LASSO quantile regression models for Americas around the financial crisis of 2007'
+- FRM_20070402_20091231Europe.rds : 'Time-series of all penalization parameters in linear LASSO quantile regression models for Europe around the financial crisis of 2007'
+- FRM_20190101_20201231Americas.rds : 'Time-series of all penalization parameters in linear LASSO quantile regression models for Americas around the COVID-19 pandemic'
+- FRM_20190101_20201231Europe.rds : 'Time-series of all penalization parameters in linear LASSO quantile regression models for Europe around the COVID-19 pandemic'
+
+Example:
+- 1: 'boxplot of penalization parameters for Americas during financial crisis of 2007 (from 20070402 to 20091231) and COVID-19 (from 20190101 to 20201231).'
+- 2: 'boxplot of penalization parameters for Europe during financial crisis of 2007 (from 20070402 to 20091231) and COVID-19 (from 20190101 to 20201231).'
