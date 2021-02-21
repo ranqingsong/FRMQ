@@ -1,18 +1,21 @@
-Name of Quantlet: 'FRMQ'
+Name of Quantlet: 'FRMQFRMdistr'
  
 Published in: 'Distribution of probabilities of Financial Risk Meter (FRM)'
   
-Description: 'This paper is about a systemic risk measure, Financial Risk Meter (FRM), 
-which is calculated based on penalization parameters of linear quantile lasso regressions of large financial institutions. 
-The standard daily FRM is the averaged daily penalization parameters among all financial institutions. 
-In this paper, we would like to define novel FRM candidates according to quantiles of penalization parameters and to compare them with other commonly used systemic risk measures in terms of correlation and Granger causality. 
-Furthermore, the history of FRM candidates is applied to predict the probability of observing a current recession using binary regression models. 
-The object of this paper is to extend the standard FRM with reasonable novel FRM candidates so that FRM could capture the systemic risk precisely and predict the upcoming recession early. 
-Above mentioned calculation of FRM candidates and applications are based on empirical data collected from two time intervals with high systemic risk, 
-namely financial crisis of 2007 and COVID-19 pandemic, in two major financial markets Americas and Europe.'
+Description: 'Visualizes the estimated density distribution of all FRM@Americas and FRM@Europe candidates, including standard FRM calculated with average penalization parameters and novel FRM proposed with quantiles at 50%, 60%, 70%, 80%, 90% and interquartile range (IQR).'
  
 Keywords: 'systemic risk measure, FRM, linear quantile regression, gacv, penalisation parameter, correlation coefficient, Granger causality, recession, quantiles, empirical distribution'
 
 Author:  'Ranqing Song'
   
 Submitted:  'Sun, February 21 2021 by Ranqing Song'
+
+Datafile: 
+- FRM_index_all20070402_20091231Americas.csv : 'Time-series of all FRM candidates for Americas around the financial crisis of 2007'
+- FRM_index_all20070402_20091231Europe.csv : 'Time-series of all FRM candidates for Europe around the financial crisis of 2007'
+- FRM_index_all20190101_20201231Americas.csv : 'Time-series of all FRM candidates for Americas around the COVID-19 pandemic'
+- FRM_index_all20190101_20201231Europe.csv : 'Time-series of all FRM candidates for Europe around the COVID-19 pandemic'
+
+Example:
+- 1: 'kernel density estimations of time-series of FRM candidates based on average (black), 50% (darkred), 60% (blue), 70% (green), 80% (purple), 90%(yellow) and IQR (brown) of penalization paramters.'
+- 2: 'kernel density estimations of time-series of FRM candidates based on average (black), 90%(yellow) of penalization paramters.'
