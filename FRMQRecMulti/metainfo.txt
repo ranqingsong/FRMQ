@@ -1,0 +1,33 @@
+
+Name of Quantlet: 'FRMQRecMulti'
+ 
+Published in: 'Distribution of probabilities of Financial Risk Meter (FRM)'
+  
+Description: 'Use probit regression models constructed with one FRM candidates lagged from 1 to 6 months to predict the probability of observing a recession. 
+Models are constructed and compared for seven FRM candidates for Americas and Europe respectively. The optimal model is stepwisely selected according to AIC value. 
+Models composed of FRM lagged at 1 and 2 months, as well as that of FRM lagged at 1, 2 and months are analysed.'
+ 
+Keywords: 'FRM, penalisation parameter, expansion, recession, kernel density estimation'
+
+Author:  'Ranqing Song'
+  
+Submitted:  'Sun, February 21 2021 by Ranqing Song'
+
+Datafile: 
+- lagged_FRM_index_all20070402_20091231Americas.csv : 'Time-series of all FRM candidates for Americas around the financial crisis of 2007 and recession indicators, 
+as well as lagged time-series with lag at 1 to 6 months'
+- lagged_FRM_index_all20070402_20091231Europe.csv : 'Time-series of all FRM candidates for Europe around the financial crisis of 2007 and recession indicators, 
+as well as lagged time-series with lag at 1 to 6 months'
+- lagged_FRM_index_all20190101_20201231Americas.csv : 'Time-series of all FRM candidates for Americas around the COVID-19 pandemic and recession indicators, 
+as well as lagged time-series with lag at 1 to 6 months' 
+- lagged_FRM_index_all20190101_20201231Europe.csv : 'Time-series of all FRM candidates for Europe around the COVID-19 pandemic and recession indicators, 
+as well as lagged time-series with lag at 1 to 6 months'
+
+Example:
+- 1: 'implied recession probabilities for seven FRM@Americas candidates, which are estimated from the multiperiod probit regression model with the lowest AIC value'
+- 2: 'implied recession probabilities for seven FRM@Americas candidates, which are estimated from the multiperiod probit regression model with the FRM candidates lagged at 1 and 2 months'
+- 3: 'implied recession probabilities for seven FRM@Americas candidates, which are estimated from the multiperiod probit regression model with the FRM candidates lagged at 1,2 and 3 months'
+- 4: 'implied recession probabilities for seven FRM@Europe candidates, which are estimated from the multiperiod probit regression model with the lowest AIC value'
+- 5: 'implied recession probabilities for seven FRM@Europe candidates, which are estimated from the multiperiod probit regression model with the FRM candidates lagged at 1 and 2 months'
+- 6: 'implied recession probabilities for seven FRM@Europe candidates, which are estimated from the multiperiod probit regression model with the FRM candidates lagged at 1,2 and 3 months'
+- 7: 'out-of-sample validation of the optimal multiperiod regression models for standard FRM@Americas'
