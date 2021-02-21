@@ -17,5 +17,5 @@ Datafile:
 - FRM_index_all20190101_20201231Europe.csv : 'Time-series of all FRM candidates for Europe around the COVID-19 pandemic'
 
 Example:
-- 1: 'kernel density estimations of time-series of FRM candidates based on average (black), 50% (darkred), 60% (blue), 70% (green), 80% (purple), 90% (yellow) and IQR (brown) of penalization paramters.'
-- 2: 'kernel density estimations of time-series of FRM candidates based on average (black), 90% (yellow) of penalization paramters.'
+- 1: 'kernel density estimations of time-series of FRM candidates for Americas (dashed line) and Europe (solid line) based on average (black), 50% (darkred), 60% (blue), 70% (green), 80% (purple), 90% (yellow) and IQR (brown) of penalization paramters.'
+- 2: 'kernel density estimations of time-series of FRM candidates for Americas (dashed line) and Europe (solid line) based on average (black), 90% (yellow) of penalization paramters.'
