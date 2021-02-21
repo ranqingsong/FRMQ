@@ -217,7 +217,7 @@ for (lag_num in 1:6) {
 }
 
 #### import daily recession indicator
-recdata = read.csv("USREC_monthly.csv")
+recdata = read.csv("https://raw.githubusercontent.com/ranqingsong/FRMQ/main/FRMQRecessionData/EUROREC.csv")
 recdata$date = as.Date(recdata$DATE, format = "%Y-%m-%d")
 recdata$ym = paste0(year(recdata$date), "-", format(recdata$date, "%m"))
 recdata = rename(recdata, rec = USREC)
