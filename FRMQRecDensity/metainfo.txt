@@ -1,0 +1,23 @@
+Name of Quantlet: 'FRMQRecDensity'
+ 
+Published in: 'Distribution of probabilities of Financial Risk Meter (FRM)'
+  
+Description: 'compare preformances of all FRM@Americas and FRM@Europe candidates 
+including standard FRM calculated with average penalization parameters and novel FRM proposed with quantiles at 50%, 60%, 70%, 80%, 90% and interquartile range (IQR) 
+during recession and expansion period. Data during financial crisis of 2007 and COVID-19 pandemic are employed.'
+ 
+Keywords: 'FRM, penalisation parameter, expansion, recession, kernel density estimation'
+
+Author:  'Ranqing Song'
+  
+Submitted:  'Sun, February 21 2021 by Ranqing Song'
+
+Datafile: 
+- FRM_index_all20070402_20091231Americas.csv : 'Time-series of all FRM candidates for Americas around the financial crisis of 2007'
+- FRM_index_all20070402_20091231Europe.csv : 'Time-series of all FRM candidates for Europe around the financial crisis of 2007'
+- FRM_index_all20190101_20201231Americas.csv : 'Time-series of all FRM candidates for Americas around the COVID-19 pandemic'
+- FRM_index_all20190101_20201231Europe.csv : 'Time-series of all FRM candidates for Europe around the COVID-19 pandemic'
+
+Example:
+- 1: 'kernel density estimation  for Americas (dashed) and Europe (solid) during expansion and recession, 
+according to data around financial crisis of 2007 (from 20070402 to 20091231) and COVID-19 (from 20190101 to 20201231).'
