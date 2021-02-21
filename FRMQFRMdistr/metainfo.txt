@@ -4,7 +4,7 @@ Published in: 'Distribution of probabilities of Financial Risk Meter (FRM)'
   
 Description: 'Visualizes the estimated density distribution of all FRM@Americas and FRM@Europe candidates, including standard FRM calculated with average penalization parameters and novel FRM proposed with quantiles at 50%, 60%, 70%, 80%, 90% and interquartile range (IQR).'
  
-Keywords: 'systemic risk measure, FRM, linear quantile regression, gacv, penalisation parameter, correlation coefficient, Granger causality, recession, quantiles, empirical distribution'
+Keywords: 'FRM, quantiles, empirical distribution, kernel density estimation'
 
 Author:  'Ranqing Song'
   
