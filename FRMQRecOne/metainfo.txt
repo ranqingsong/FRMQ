@@ -1,0 +1,31 @@
+Name of Quantlet: 'FRMQRecOne'
+ 
+Published in: 'Distribution of probabilities of Financial Risk Meter (FRM)'
+  
+Description: 'Use probit and logistic regression models constructed with one FRM candidates lagged at x month (x ranges from 1 to 6) to predict the probability of observing a recession. 
+Models are constructed and compared for seven FRM candidates for Americas and Europe respectively. Models for each FRM candidates are compared with AIC, BIC, Estrella Pseudo R-sqaure which is commonly used for recession prediction. 
+Predicted recession probabilities of models with siginicant predictor will be plotted.'
+ 
+Keywords: 'FRM, penalisation parameter, expansion, recession, probit regression, logistic regression, static recession prediction model, Estrella Pseudo R-square, oneperiod'
+
+Author:  'Ranqing Song'
+  
+Submitted:  'Sun, February 21 2021 by Ranqing Song'
+
+Datafile: 
+- lagged_FRM_index_all20070402_20091231Americas.csv : 'Time-series of all FRM candidates for Americas around the financial crisis of 2007 and recession indicators, 
+as well as lagged time-series with lag at 1 to 6 months'
+- lagged_FRM_index_all20070402_20091231Europe.csv : 'Time-series of all FRM candidates for Europe around the financial crisis of 2007 and recession indicators, 
+as well as lagged time-series with lag at 1 to 6 months'
+- lagged_FRM_index_all20190101_20201231Americas.csv : 'Time-series of all FRM candidates for Americas around the COVID-19 pandemic and recession indicators, 
+as well as lagged time-series with lag at 1 to 6 months' 
+- lagged_FRM_index_all20190101_20201231Europe.csv : 'Time-series of all FRM candidates for Europe around the COVID-19 pandemic and recession indicators, 
+as well as lagged time-series with lag at 1 to 6 months'
+
+Example:
+- 1: 'implied recession probabilities for seven FRM@Americas candidates, which are estimated from the oneperiod probit regression model with FRM candidates lagged at 1 month'
+- 2: 'implied recession probabilities for seven FRM@Americas candidates, which are estimated from the oneperiod logistic regression model with FRM candidates lagged at 1 month'
+- 3: 'implied recession probabilities for seven FRM@Europe candidates, which are estimated from the oneperiod probit regression model with FRM candidates lagged at 1 month'
+- 4: 'implied recession probabilities for seven FRM@Europe candidates, which are estimated from the oneperiod logistic regression model with FRM candidates lagged at 1 month'
+- 5: 'implied recession probabilities for seven FRM@Americas candidates, which are estimated from the oneperiod probit regression model with the FRM candidates lagged at 2, 3, or 4 months'
+- 6: 'implied recession probabilities for seven FRM@Europe candidates, which are estimated from the oneperiod probit regression model with the FRM candidates lagged at 2 or 3 months'
