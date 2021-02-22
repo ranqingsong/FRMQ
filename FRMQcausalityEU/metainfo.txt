@@ -1,0 +1,23 @@
+Name of Quantlet: 'FRMQcausalityEU'
+ 
+Published in: 'Distribution of probabilities of Financial Risk Meter (FRM)'
+  
+Description: 'Granger causality test of individual FRM@Europe candidates and individual commonly used systemic risk measures. 
+VSTOXX, CISS(Composite Indicator of Systemic Stress) and FT for Europe are taken as comparable measures. 
+The Granger Causality test is conducted based on the procedure proposed by the paper ''FRM: a Financial Risk Meter based on penalizing tail event occcurrence from 
+Yu,L., W. K. Härdle, L.Borke, and T. Benschop''. For two non-integrated and non-stationary time-series, the transformed time series are applied to VAR model.'
+ 
+Keywords: 'FRM, Granger causality test, Financial turbulence, VSTOXX, CISS,'
+
+Author:  'Ranqing Song'
+  
+Submitted:  'Mon, February 22 2021 by Ranqing Song'
+
+Datafile: 
+- systemic_risk_comparison_EU.csv : 'Normalized time-series of FRM candidates and commonly used systemic risk measures in Europe.'
+
+Example:
+- 1: 'p-values of model seletion test of FRM@Europe and FT, select VAR order P'
+- 2: 'p-values of Granger causality test of FRM@Europe and FT' 
+- 3: 'test statistics of Engle Granger 2-step test of FRM@Americas and VSTOXX'
+- 4: 'test statistics of Engle Granger 2-step test of FRM@Americas and CISS'
