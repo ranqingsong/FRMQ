@@ -1,0 +1,32 @@
+  
+Name of Quantlet: 'FRMQRecData'
+ 
+Published in: 'Distribution of probabilities of Financial Risk Meter (FRM)'
+  
+Description: 'prepares monthly time-series of FRM@Americas and FRM@Europe candidates for testing the predictability to forecast the upcoming recession of FRM candidates.
+Includes standard FRM calculated and novel FRM proposed with quantiles at 50%, 60%, 70%, 80%, 90% and interquartile range (IQR) lagged from one to six months, and recession indicators 
+downloaded from NEPR and CEPR.'
+ 
+Keywords: 'FRM, recession indicators, lagged data'
+
+Author:  'Ranqing Song'
+  
+Submitted:  'Mon, February 22 2021 by Ranqing Song'
+
+Datafile: 
+- FRM_index_all20070402_20091231Americas.csv : 'Time-series of all FRM candidates for Americas around the financial crisis of 2007'
+- FRM_index_all20070402_20091231Europe.csv : 'Time-series of all FRM candidates for Europe around the financial crisis of 2007'
+- FRM_index_all20190101_20201231Americas.csv : 'Time-series of all FRM candidates for Americas around the COVID-19 pandemic'
+- FRM_index_all20190101_20201231Europe.csv : 'Time-series of all FRM candidates for Europe around the COVID-19 pandemic'
+- EUROREC.csv: 'recession indicators collected for Europe from CEPR from Jan 2009 to Jun 2020.'
+- USREC_monthly.csv: 'recession indicators collected for Americas from NEPR from Dec 1854 to Dec 2020.'
+
+Example:
+- 1: 'Time-series of all FRM candidates for Americas around the financial crisis of 2007 and recession indicators, 
+as well as lagged time-series with lag at 1 to 6 months'
+- 2: 'Time-series of all FRM candidates for Europe around the financial crisis of 2007 and recession indicators, 
+as well as lagged time-series with lag at 1 to 6 months'
+- 3: 'Time-series of all FRM candidates for Americas around the COVID-19 pandemic and recession indicators, 
+as well as lagged time-series with lag at 1 to 6 months' 
+- 4 : 'Time-series of all FRM candidates for Europe around the COVID-19 pandemic and recession indicators, 
+as well as lagged time-series with lag at 1 to 6 months'
