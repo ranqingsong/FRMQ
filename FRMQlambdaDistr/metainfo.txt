@@ -1,0 +1,19 @@
+Name of Quantlet: 'FRMQlambdaDistr'
+ 
+Description: 'Visualizes the estimated density distribution of all penalization parameters in Americas and Europe during financial crisis and COVID-19 pandemic.'
+ 
+Keywords: 'FRM, quantiles, empirical distribution, kernel density estimation'
+
+Author:  'Ranqing Song'
+  
+Submitted:  'Wednesday, February 24 2021 by Ranqing Song'
+
+Datafile: 
+- lambdas_wide_20070402_20091231Americas.csv : 'Time-series of all penalization parametersfor Americas around the financial crisis of 2007'
+- lambdas_wide_20070402_20091231Europe.csv : 'Time-series of all penalization parameters for Europe around the financial crisis of 2007'
+- lambdas_wide_20190101_20201231Americas.csv : 'Time-series of all penalization parametersfor Americas around the COVID-19 pandemic'
+- lambdas_wide_20190101_20201231Europe.csv : 'Time-series of all penalization parameters for Europe around the COVID-19 pandemic'
+
+Example:
+- 1: 'kernel density estimations of time-series of penalization parameters for Americas (dashed line) and Europe (solid line) on several trading days 20070801 (black), 20190603 (red), 
+20191203 (blue), 20081003 (green), 20090202(purple), 20200602(orange).'
