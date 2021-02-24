@@ -7,7 +7,7 @@ FT (Financial turbulence index) and SRISK (Systemic Risk Index) for Americas are
 The Granger Causality test is conducted based on the procedure proposed by the paper ''FRM: a Financial Risk Meter based on penalizing tail event occcurrence from 
 Yu,L., W. K. Härdle, L.Borke, and T. Benschop''. For two non-integrated and non-stationary time-series, the transformed time series are applied to VAR model.'
  
-Keywords: 'FRM, Granger causality test, VIX; Google trends, Financial turbulence, SRISK,'
+Keywords: 'FRM, Granger causality test, VIX, Google trends, Financial turbulence, SRISK,'
 
 See also: 'FRMQcausalityEU'
 
