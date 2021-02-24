@@ -1,0 +1,32 @@
+Name of Quantlet: 'FRMQcorrelationEU'
+ 
+Published in: 'Distribution of probabilities of Financial Risk Meter (FRM)'
+  
+Description: 'Correlation test and Kolmogorov-Smirnov (KS) test of individual FRM@Europecandidates and individual commonly used systemic risk measures. VSTOXX, CISS and
+FT (Financial turbulence index) for Americas are taken as comparable measures. High correlation coefficient and lower KS test statistics reveal the comovement of FRM 
+candidates and other systemic risk measures.'
+ 
+Keywords: 'FRM, Correlation test, Kolmogorov-Smirnov(KS), VSTOXX, CISS, Financial turbulence'
+
+See also: 'FRMQcorrelationAM'
+
+Author:  'Ranqing Song'
+  
+Submitted:  'Wednesday, February 24 2021 by Ranqing Song'
+
+Datafile: 
+- Europe_Price_20091231.csv : 'Daily closing stock prices of all financial institutions from Jan 2007 until Dec 2009.'
+- Europe_Price_20201231.csv : 'Daily closing stock prices of all financial institutions that are at least once ranked in the top 100 largest financial institutions in Americas from Jan 2019 until Dec 2020.'
+- FRM_all_EU: 'all FRM candidates based on average or quantiles of penalization parameters that are combined from two above mentioned time intervals.'
+- CISS.csv: 'historical weekly CISS data from March 2007 until Dec 2020.'  
+- V2X.csv: 'historical daily VIX data from Jan 2007 until Dec 2009 and from Jan 2019 until Dec 2020.'
+- lambdas_wide_20070402_20091231Europe.csv: 'Penalization parameters of financial institutions contains the list of the top 100 largest financial institutions. This table is 
+used to select financial institutions that are at least once ranked in the top 100 largest financial institutions in Europe from Jan 2007 until Dec 2009.'
+- lambdas_wide_20190101_20201231Europe.csv: 'Penalization parameters of financial institutions contains the list of the top 100 largest financial institutions. This table is 
+used to select financial institutions that are at least once ranked in the top 100 largest financial institutions in Europe from Jan 2019 until Dec 2020.'
+- systemic_risk_comparison_EU.csv : 'Output file saves normalized time-series of FRM candidates and commonly used systemic risk measures in Europe.'
+
+
+Example:
+- 1: correlation coefficients of FRM@Europe and VSTOXX, CISS and FT'
+- 2: 'KS test statistics of of FRM@Europe and VSTOXX, CISS and FT. The smaller the better when it comes to the hypothesis test.' 
