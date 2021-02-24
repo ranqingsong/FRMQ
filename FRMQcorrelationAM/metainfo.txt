@@ -19,7 +19,7 @@ Datafile:
 - FRM_all_AM: 'all FRM candidates based on average or quantiles of penalization parameters that are combined from two above mentioned time intervals.'
 - SRISK.csv: 'historical monthly SRISK data from Jan 2007 until Dec 2009.'  
 - SRISK_2.csv: 'historical monthly SRISK data from Jan 2018 until Dec 2020.'  
-- VIX.csv: 'historical daily VIX data from Jan 2007 until Dec 2020.'
+- VIX.csv: 'historical daily VIX data from Jan 2007 until Dec 2009 and from Jan 2019 until Dec 2020.'
 - lambdas_wide_20070402_20091231Americas.csv: 'Penalization parameters of financial institutions contains the list of the top 100 largest financial institutions. This table is 
 used to select financial institutions that are at least once ranked in the top 100 largest financial institutions in Americas from Jan 2007 until Dec 2009.'
 - lambdas_wide_20190101_20201231Americas.csv: 'Penalization parameters of financial institutions contains the list of the top 100 largest financial institutions. This table is 
