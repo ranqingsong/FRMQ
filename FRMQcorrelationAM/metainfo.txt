@@ -28,5 +28,7 @@ used to select financial institutions that are at least once ranked in the top 1
 
 
 Example:
-- 1: correlation coefficients of FRM@Americas and VAR, SRISK, GT, FT'
-- 2: 'KS test statistics of of FRM@Americas and VAR, SRISK, GT, FT. The smaller the better when it comes to the hypothesis test.' 
+- 1: 'correlation coefficients of VIX, SRISK, GT, FT and FRM@Americas'
+- 2: 'KS test statistics of of FRM@Americas and VIX, SRISK, GT, FT. The smaller the better when it comes to the hypothesis test.' 
+- 3: 'Visualization of VIX, SRISK, GT, FT and FRM@Americas around financial crisis of 2007'
+- 4: 'Visualization of VIX, SRISK, GT, FT and FRM@Americas around financial crisis of 2020'
