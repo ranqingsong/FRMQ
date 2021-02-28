@@ -2,7 +2,7 @@ Name of Quantlet: 'FRMQFRMdistr'
  
 Published in: 'Distribution of probabilities of Financial Risk Meter (FRM)'
   
-Description: 'Visualizes the estimated density distribution of all FRM@Americas and FRM@Europe candidates, including standard FRM calculated with average penalization parameters and novel FRM proposed with quantiles at 50%, 60%, 70%, 80%, 90% and interquartile range (IQR).'
+Description: 'Visualizes the estimated density distribution of all FRM@Americas and FRM@Europe candidates, including standard FRM calculated with average penalization parameters and novel FRM candidates proposed with quantiles at 50%, 60%, 70%, 80%, 90% and interquartile range (IQR).'
  
 Keywords: 'FRM, quantiles, empirical distribution, kernel density estimation'
 
@@ -18,4 +18,4 @@ Datafile:
 
 Example:
 - 1: 'kernel density estimations of time-series of FRM candidates for Americas (dashed line) and Europe (solid line) based on average (black), 50% (darkred), 60% (blue), 70% (green), 80% (purple), 90% (yellow) and IQR (brown) of penalization paramters.'
-- 2: 'kernel density estimations of time-series of FRM candidates for Americas (dashed line) and Europe (solid line) based on average (black), 90% (yellow) of penalization paramters.'
+
