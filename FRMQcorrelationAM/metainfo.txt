@@ -5,7 +5,7 @@ Published in: 'Distribution of probabilities of Financial Risk Meter (FRM)'
 Description: 'Correlation test and Kolmogorov-Smirnov (KS) test of individual FRM@Americas candidates and individual commonly used systemic risk measures. VIX, Google Trends (GT) of the keyword ''financial crisis'', 
 FT (Financial turbulence index) and SRISK (Systemic Risk Index) for Americas are taken as comparable measures. High correlation coefficient and lower KS test statistics reveal the comovement of FRM candidates and other systemic risk measures.'
  
-Keywords: 'FRM, Correlation test, Kolmogorov-Smirnov(KS), VIX, Google trends, Financial turbulence, SRISK'
+Keywords: 'FRM, Correlation test, Kolmogorov-Smirnov(KS) test, VIX, Google trends, Financial turbulence, SRISK'
 
 See also: 'FRMQcorrelationEU'
 
@@ -14,21 +14,18 @@ Author:  'Ranqing Song'
 Submitted:  'Wednesday, February 24 2021 by Ranqing Song'
 
 Datafile: 
-- Americas_Price_20091231.csv : 'Daily closing stock prices of all financial institutions from Jan 2007 until Dec 2009.'
-- Americas_Price_20201231.csv : 'Daily closing stock prices of all financial institutions that are at least once ranked in the top 100 largest financial institutions in Americas from Jan 2019 until Dec 2020.'
-- FRM_all_AM: 'all FRM candidates based on average or quantiles of penalization parameters that are combined from two above mentioned time intervals.'
+- Americas_Price_20091231.csv : 'Daily closing stock prices of all financial institutions in Americas from Jan 2007 until Dec 2009.'
+- Americas_Price_20201231.csv : 'Daily closing stock prices of all financial institutions in Americas from Jan 2019 until Dec 2020.'
+- FRM_all_AM.csv : 'all FRM candidates based on average or quantiles of penalization parameters that are combined from two above mentioned time intervals.'
 - SRISK.csv: 'historical monthly SRISK data from Jan 2007 until Dec 2009.'  
 - SRISK_2.csv: 'historical monthly SRISK data from Jan 2018 until Dec 2020.'  
 - VIX.csv: 'historical daily VIX data from Jan 2007 until Dec 2009 and from Jan 2019 until Dec 2020.'
-- lambdas_wide_20070402_20091231Americas.csv: 'Penalization parameters of financial institutions contains the list of the top 100 largest financial institutions. This table is 
-used to select financial institutions that are at least once ranked in the top 100 largest financial institutions in Americas from Jan 2007 until Dec 2009.'
-- lambdas_wide_20190101_20201231Americas.csv: 'Penalization parameters of financial institutions contains the list of the top 100 largest financial institutions. This table is 
-used to select financial institutions that are at least once ranked in the top 100 largest financial institutions in Americas from Jan 2007 until Dec 2009.'
+- lambdas_wide_20070402_20091231Americas.csv: 'Penalization parameters of financial institutions contains the list of the top 100 largest financial institutions. This table is used to select financial institutions that are at least once ranked in the top 100 largest financial institutions in Americas from Jan 2007 until Dec 2009.'
+- lambdas_wide_20190101_20201231Americas.csv: 'Penalization parameters of financial institutions contains the list of the top 100 largest financial institutions. This table is used to select financial institutions that are at least once ranked in the top 100 largest financial institutions in Americas from Jan 2019 until Dec 2020.'
 - systemic_risk_comparison_AM.csv : 'Output file saves normalized time-series of FRM candidates and commonly used systemic risk measures in Americas.'
 
-
 Example:
-- 1: 'correlation coefficients of VIX, SRISK, GT, FT and FRM@Americas'
-- 2: 'KS test statistics of of FRM@Americas and VIX, SRISK, GT, FT. The smaller the better when it comes to the hypothesis test.' 
-- 3: 'Visualization of VIX, SRISK, GT, FT and FRM@Americas around financial crisis of 2007'
-- 4: 'Visualization of VIX, SRISK, GT, FT and FRM@Americas around financial crisis of 2020'
+- 1: 'correlation coefficients of VIX, SRISK, GT, FT and seven FRM@Americas candidates'
+- 2: 'KS test statistics of of FRM@Americas candidates and VIX, SRISK, GT, FT. The smaller the better when it comes to the hypothesis test.' 
+- 3: 'Visualization of VIX, SRISK, GT, FT and seven FRM@Americas candidates around financial crisis of 2007'
+- 4: 'Visualization of VIX, SRISK, GT, FT and seven FRM@Americas candidates around COVID-19 pandemic of 2020'
