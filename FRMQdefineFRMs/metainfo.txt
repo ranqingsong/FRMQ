@@ -19,6 +19,6 @@ Datafile:
 
 Example:
 - 1: 'plot of FRM@Americas candidates for Americas during financial crisis of 2007 (from 20070402 to 20091231)' 
-- 2: 'plot of FRM@Americas candidates for Americas during financial crisis of COVID-19 (from 20190101 to 20201231).'
-- 3: 'plot of FRM@Europe candidates for Americas during financial crisis of 2007 (from 20070402 to 20091231)' 
-- 4: 'plot of FRM@Europe candidates for Americas during financial crisis of COVID-19 (from 20190101 to 20201231).'
+- 2: 'plot of FRM@Americas candidates for Americas during COVID-19 pandemic (from 20190101 to 20201231).'
+- 3: 'plot of FRM@Europe candidates for Europe during financial crisis of 2007 (from 20070402 to 20091231)' 
+- 4: 'plot of FRM@Europe candidates for Europe during COVID-19 pandemic (from 20190101 to 20201231).'
