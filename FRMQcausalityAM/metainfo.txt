@@ -4,8 +4,8 @@ Published in: 'Distribution of probabilities of Financial Risk Meter (FRM)'
   
 Description: 'Granger causality test of individual FRM@Americas candidates and individual commonly used systemic risk measures. VIX, Google Trends (GT) of the keyword ''financial crisis'', 
 FT (Financial turbulence index) and SRISK (Systemic Risk Index) for Americas are taken as comparable measures. 
-The Granger Causality test is conducted based on the procedure proposed by the paper ''FRM: a Financial Risk Meter based on penalizing tail event occcurrence from 
-Yu,L., W. K. Härdle, L.Borke, and T. Benschop''. For two non-integrated and non-stationary time-series, the transformed time series are applied to VAR model.'
+The Granger Causality test is conducted based on the procedure proposed by the paper ''FRM: a Financial Risk Meter based on penalizing tail event occcurrence'' by 
+Yu,L., W. K. Härdle, L.Borke, and T. Benschop. For two non-integrated and non-stationary time-series, the transformed time series are applied to VAR model so that the Granger causality test is performed.'
  
 Keywords: 'FRM, Granger causality test, VIX, Google trends, Financial turbulence, SRISK.'
 
@@ -17,7 +17,6 @@ Submitted:  'Mon, February 22 2021 by Ranqing Song'
 
 Datafile: 
 - systemic_risk_comparison_AM.csv : 'Normalized time-series of FRM candidates and commonly used systemic risk measures in Americas.'
-
 
 Example:
 - 1: 'p-values of model seletion test of FRM@Americas and GT, select VAR order P.'
